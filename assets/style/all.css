@@ -1,0 +1,176 @@
+.hide-text {
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.body {
+  font-family: LATO,roboto MONO;
+  color: #212529; }
+
+a {
+  text-decoration: none;
+  color: #212529;
+  display: block; }
+
+a:hover {
+  color: green; }
+
+p {
+  margin-bottom: 0; }
+
+.mt-5 {
+  margin-top: 2rem !important; }
+
+.mb-5 {
+  margin-bottom: 2rem !important; }
+
+.mb-6 {
+  margin-bottom: 3rem !important; }
+
+.mb-7 {
+  margin-bottom: 0.625rem !important; }
+
+.mb-8 {
+  margin-bottom: 2.5rem; }
+
+.mb-9 {
+  margin-bottom: 1.25rem; }
+
+.mb-10 {
+  margin-bottom: 4rem; }
+
+.me-6 {
+  margin-right: 3rem !important; }
+
+.ms-6 {
+  margin-left: 3rem; }
+
+.p-2-3 {
+  padding: 0.75rem; }
+
+.ps-5 {
+  padding-left: 2rem !important; }
+
+.pe-5 {
+  padding-right: 2rem !important; }
+
+.p-5 {
+  padding: 2rem !important; }
+
+.px-5 {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important; }
+
+.pt-5 {
+  padding-top: 2rem !important; }
+
+.pt-6 {
+  padding-top: 3rem !important; }
+
+.py-2-3 {
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem; }
+
+.ps-sidebar {
+  padding-left: 18.5rem; }
+
+.lh-middle {
+  line-height: 1.375rem; }
+
+.fs-7 {
+  font-size: 0.875rem; }
+
+.fs-8 {
+  font-size: 0.75rem; }
+
+.fs-9 {
+  font-size: 1.25rem; }
+
+.fc-light {
+  color: #6C757D; }
+
+.bg-lighter {
+  background: #F8F9FA; }
+
+.text-lighter {
+  color: #6C757D; }
+
+.content {
+  width: 100%; }
+
+.header .dropdown .dropdown-toggle::after {
+  border: 0; }
+
+.assignment-list {
+  width: 34.78%; }
+  .assignment-list .dropdown {
+    margin-bottom: 6px; }
+    .assignment-list .dropdown .dropdown-toggle::after {
+      border: 0; }
+  .assignment-list .btn {
+    padding: 0; }
+
+.assignment-list .list-group .active {
+  background: #F8F9FA;
+  border-bottom: 1px solid #CED4DA; }
+
+.assignment-content {
+  width: 64.37%;
+  position: relative; }
+  .assignment-content .card-header {
+    padding: 12px 16px; }
+
+.account-info img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.reply-box {
+  width: 100%;
+  display: none;
+  position: absolute;
+  bottom: 0; }
+
+.ck-content {
+  height: 204px; }
+
+.ck.ck-editor__editable_inline {
+  border: 0px;
+  border-top: 1px solid #00007D;
+  border-left: 1px solid #00007D;
+  border-right: 1px solid #00007D; }
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: #F8F9FA;
+  width: 296px;
+  padding: 32px 0 32px 0; }
+  .side-menu h1 a {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/2b326fe971cd296bd54667a9b4a63c4b0f19fab3/week5/logo-ANSWER.svg);
+    width: 151px;
+    height: 40px; }
+  .side-menu li a {
+    padding-bottom: 26px; }
+  .side-menu .user {
+    position: absolute;
+    bottom: 0; }
+    .side-menu .user img {
+      width: 40px;
+      height: 40px;
+      -o-object-fit: cover;
+         object-fit: cover; }
+  .side-menu .select {
+    position: relative; }
+  .side-menu .select::before {
+    content: "";
+    width: 4px;
+    height: 32px;
+    background: green;
+    position: absolute;
+    left: -32px; }
+
+/*# sourceMappingURL=all.css.map */
