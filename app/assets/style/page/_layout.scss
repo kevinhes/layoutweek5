@@ -1,0 +1,41 @@
+.side-menu{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: $color-secondary;
+    width: 296px;
+    padding: 32px 0 32px 0;
+    h1{
+        a{
+            background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/2b326fe971cd296bd54667a9b4a63c4b0f19fab3/week5/logo-ANSWER.svg);
+            width: 151px;
+            height: 40px;
+        }
+    }
+    li{
+        a{
+            padding-bottom: 26px;
+        }
+    }
+    .user{
+        position: absolute;
+        bottom: 0;
+        img{
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+        }
+    }
+    .select{
+        position: relative;
+    }
+    .select::before{
+        content: "";
+        width: 4px;
+        height: 32px;
+        background: green;
+        position: absolute;
+        left: -32px;
+    }
+}

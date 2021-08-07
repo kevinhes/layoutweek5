@@ -1,0 +1,103 @@
+.mt-5{
+    margin-top: $spacer*2!important;
+}
+
+.mb-5{
+    margin-bottom: $spacer*2!important;
+}
+
+.mb-6{
+    margin-bottom: $spacer*3!important;
+}
+
+.mb-7{
+    margin-bottom: $spacer*0.625!important;
+}
+
+.mb-8{
+    margin-bottom: $spacer*2.5;
+}
+
+.mb-9{
+    margin-bottom: $spacer*1.25;
+}
+
+.mb-10{
+    margin-bottom: $spacer*4;
+}
+
+.me-6{
+    margin-right: $spacer*3!important;
+}
+
+.ms-6{
+    margin-left: $spacer*3;
+}
+
+.p-2-3{
+    padding: $spacer*0.75;
+}
+
+
+.ps-5{
+    padding-left: $spacer*2!important;
+}
+
+
+.pe-5{
+    padding-right: $spacer*2!important;
+}
+
+.p-5{
+    padding: $spacer*2!important;
+}
+
+.px-5{
+    padding-left: $spacer*2!important;
+    padding-right: $spacer*2!important;
+}
+
+.pt-5{
+    padding-top: $spacer*2!important;
+}
+
+.pt-6{
+    padding-top: $spacer*3!important;
+}
+
+.py-2-3{
+    padding-top: $spacer*0.875;
+    padding-bottom: $spacer*0.875;
+}
+
+.ps-sidebar{
+    padding-left: $spacer*18.5;
+}
+
+.lh-middle{
+    line-height: $font-sizes*1.375;
+}
+
+.fs-7{
+    font-size: $font-sizes*0.875;
+}
+
+.fs-8{
+    font-size: $font-sizes*0.75;
+}
+
+.fs-9{
+    font-size: $font-sizes*1.25;
+}
+
+.fc-light{
+    color: $color-content-lighter;
+}
+
+.bg-lighter{
+    background: #F8F9FA;
+}
+
+.text-lighter{
+    color: #6C757D;
+}

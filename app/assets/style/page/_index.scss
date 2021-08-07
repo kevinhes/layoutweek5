@@ -1,0 +1,64 @@
+.content{
+    width: 100%;
+}
+
+.header{
+    .dropdown{
+        .dropdown-toggle::after{
+            border: 0;
+        }
+    }
+}
+.assignment-list{
+    width: 34.78%;
+    .dropdown{
+        margin-bottom: 6px;
+        .dropdown-toggle::after{
+            border: 0;
+        }
+    }
+    .btn{
+        padding: 0;
+    }
+}
+
+.assignment-list{
+    .list-group{
+        .active{
+            background: #F8F9FA;
+            border-bottom: 1px solid #CED4DA;
+        }
+    }
+}
+.assignment-content{
+    width: 64.37%;
+    position: relative;
+    .card-header{
+        padding: 12px 16px;
+    }
+}
+
+.account-info{
+    img{
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+    }
+}
+
+.reply-box{
+    width: 100%;
+    display: none;
+    position: absolute; 
+    bottom: 0;
+}
+
+.ck-content{
+    height: 204px;
+}
+.ck.ck-editor__editable_inline{
+    border: 0px;
+    border-top: 1px solid #00007D ;
+    border-left: 1px solid #00007D ;
+    border-right: 1px solid #00007D ;
+}
